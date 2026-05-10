@@ -109,7 +109,7 @@ function Dashboard() {
                 // CREATE
                 await axios.post(
 
-                    'http://localhost:5000/api/diaries',
+                    `${API_BASE_URL}/api/diaries`,
 
                     formData,
 
